@@ -5,7 +5,7 @@ class BaseDeDatosProductos {
   }
 
   async cargarRegistros() {
-    const resultado = await fetch("./JSON/productos.json");
+    const resultado = await fetch("./JSON/herrajes.json");
     this.productos = await resultado.json();
     cargarProductos(this.productos); // Pasa el array de productos aquí
   }
@@ -15,7 +15,7 @@ const bdp = new BaseDeDatosProductos();
 
 console.log(bdp);
 
-const productos = document.getElementById("productos");
+const productos = document.getElementById("herrajes");
 
 function cargarProductos(productosArray) {  // Cambié el nombre a productosArray para evitar confusión
   productos.innerHTML = "";  // Limpia el contenido antes de agregar nuevos productos
@@ -33,3 +33,22 @@ function cargarProductos(productosArray) {  // Cambié el nombre a productosArra
   }
 }
 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const herrajesContainer = document.getElementById("herrajes");
+  const btnLeft = document.querySelector(".fa-chevron-left");
+  const btnRight = document.querySelector(".fa-chevron-right");
+  
+  function updateCardWidth() {
+    const card = herrajesContainer.querySelector(".card");
+    return card ? card.offsetWidth + 5 : 100; // Ajuste para márgenes
+  }
+  
+  btnRight.addEventListener("click", () => {
+    herrajesContainer.scrollBy({ left: updateCardWidth(), behavior: "smooth" });
+  });
+  
+  btnLeft.addEventListener("click", () => {
+    herrajesContainer.scrollBy({ left: -updateCardWidth(), behavior: "smooth" });
+  });
+});

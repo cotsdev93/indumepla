@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "222",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/222.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "1026",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/1026 B.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "1938",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/1938.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Abanico B",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Abanico B.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Abanico",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Abanico.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Alita Chica",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Alita Chica.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Alita Rallada",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Alita Rallada 1.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Alita Rallada 2",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Alita Rallada 2.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Alita Super",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Alita Super.PNG",
+    "alt": ""
+  },
+  {
+    "id": 1,
+    "nombre": "Americana",
+    "categoria": "herrajes",
+    "descripcion": "",
+    "img": "./assets/img/Americana.PNG",
+    "alt": ""
+  }
+]

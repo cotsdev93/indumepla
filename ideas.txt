@@ -1,2 +1,3 @@
 1. separar fotos accesorios y herrajes
 2. armar cuenta de google
+3. logo y font
