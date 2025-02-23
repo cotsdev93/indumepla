@@ -8,7 +8,7 @@
 body {
   position: relative;
   width: 100%;
-  border: solid 4px red;
+  background-color: #f2f2f2;
 }
 
 body {
@@ -319,7 +319,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContain
   }
   body main .accesoriosSection .accesoriosContainer #accesorios {
     width: 90%;
-    height: 30vh;
+    height: auto;
     overflow-x: auto;
   }
   body main .accesoriosSection .accesoriosContainer #accesorios .card {
