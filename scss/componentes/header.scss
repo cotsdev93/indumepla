@@ -40,7 +40,6 @@ header {
       height: 70px;
       justify-content: none;
       position: relative;
-      
       .logoContainer {
         width: 50%;
         margin-left: 10px;
@@ -56,7 +55,7 @@ header {
         color: white;
         z-index: 2;
       }
-      
+  
       ul {
         background-color: $main;
         padding-top: 80px;
