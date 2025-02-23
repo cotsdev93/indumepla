@@ -23,7 +23,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Cruz Laurel.PNG",
+    "img": "./assets/img/crusLaurel.PNG",
     "alt": ""
   },
   {
@@ -32,7 +32,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Cuerpo de 32.PNG",
+    "img": "./assets/img/cuerpoDeTreintaDos.PNG",
     "alt": ""
   },
   {
