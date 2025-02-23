@@ -107,3 +107,34 @@ body {
     }
   }
 }
+
+@media (max-width: 768px) {
+  body main .herrajesSection {
+    height: 40vh;
+    margin-top: 0;
+    
+    .herrajesContainer {
+      .fa-solid {
+        display: none;
+      }
+      
+      #herrajes {
+        width: 90%;
+        height: 30vh;
+        overflow-x: auto;
+        
+        .card {
+          flex: 0 0 calc(100% - 10px);
+          
+          .infoContainer {
+            min-height: 40px;
+            
+            h3, .precio {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
