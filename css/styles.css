@@ -40,23 +40,25 @@ body main .herrajesContainer .fa-solid:hover {
   color: #1565c0;
 }
 body main .herrajesContainer #herrajes {
-  width: 90%;
+  width: calc(90% - 60px);
   display: flex;
   align-items: center;
   overflow: hidden;
-  height: 180px;
 }
 body main .herrajesContainer #herrajes .card {
   border: solid 1px #828282;
-  flex: 0 0 24.5%;
+  flex: 0 0 calc(25% - 10px);
   height: 150px;
   display: flex;
   flex-direction: column;
-  margin: 0 2px;
+  margin: 0 5px;
   border-radius: 10px;
   overflow: hidden;
   background-color: #efefef;
   box-shadow: rgba(0, 0, 0, 0.1254901961) 0px 0px 7px 1px;
+  height: auto;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 body main .herrajesContainer #herrajes .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
@@ -73,10 +75,19 @@ body main .herrajesContainer #herrajes .card .imgContainer .img {
   object-fit: cover;
   display: block;
 }
-body main .herrajesContainer #herrajes .card h3 {
-  margin: 0;
-  text-align: center;
-  padding: 8px;
+body main .herrajesContainer #herrajes .card .infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body main .herrajesContainer #herrajes .card .infoContainer h3 {
+  height: 100%;
+  font-size: 12px;
+}
+body main .herrajesContainer #herrajes .card .infoContainer .precio {
+  color: green;
+  height: 100%;
+  font-size: 12px;
 }
 
 header nav {
