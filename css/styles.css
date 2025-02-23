@@ -117,7 +117,7 @@ body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .pr
   }
   body main .herrajesSection .herrajesContainer #herrajes {
     width: 90%;
-    height: 30vh;
+    height: auto;
     overflow-x: auto;
   }
   body main .herrajesSection .herrajesContainer #herrajes .card {
