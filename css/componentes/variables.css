@@ -5,4 +5,14 @@
   font-family: "liter", serif;
 }
 
+body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=variables.css.map */

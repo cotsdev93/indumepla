@@ -10,3 +10,14 @@ $grisO: #828282;
     box-sizing: border-box;
     font-family: "liter", serif;
 }
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
