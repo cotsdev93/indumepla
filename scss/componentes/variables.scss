@@ -12,12 +12,11 @@ $grisO: #828282;
 }
 
 body {
-  overflow-x: hidden;
+//   overflow-x: hidden;
   position: relative;
   width: 100%;
+//   overflow-x: auto;
+  border: solid 4px red;
 }
 
-body.menu-open {
-  overflow: hidden;
-}
 
