@@ -9,43 +9,54 @@ body {
   margin: 0;
   padding: 0;
 }
-body main {
-  height: 50vh;
+body main .herrajesSection {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(circle, #ffffff 0%, #f0f0f0 50%, #e0e0e0 100%);
 }
-body main .herrajesContainer {
+body main .herrajesSection .herrajesContainer {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body main .herrajesContainer .fa-chevron-right {
+body main .herrajesSection .herrajesContainer .fa-chevron-left,
+body main .herrajesSection .herrajesContainer .fa-chevron-left-acc {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+body main .herrajesSection .herrajesContainer .fa-chevron-left.hidden,
+body main .herrajesSection .herrajesContainer .fa-chevron-left-acc.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+body main .herrajesSection .herrajesContainer .fa-chevron-right {
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
-body main .herrajesContainer .fa-chevron-left {
+body main .herrajesSection .herrajesContainer .fa-chevron-left {
   font-size: 15px;
   margin-right: 10px;
   cursor: pointer;
 }
-body main .herrajesContainer .fa-solid {
+body main .herrajesSection .herrajesContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .herrajesContainer .fa-solid:hover {
+body main .herrajesSection .herrajesContainer .fa-solid:hover {
   transform: scale(1.3);
-  color: #1565c0;
+  color: #084a95;
 }
-body main .herrajesContainer #herrajes {
+body main .herrajesSection .herrajesContainer #herrajes {
   width: calc(90% - 60px);
   display: flex;
   align-items: center;
   overflow: hidden;
 }
-body main .herrajesContainer #herrajes .card {
+body main .herrajesSection .herrajesContainer #herrajes .card {
   border: solid 1px #828282;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -60,7 +71,7 @@ body main .herrajesContainer #herrajes .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .herrajesContainer #herrajes .card .imgContainer {
+body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -69,22 +80,22 @@ body main .herrajesContainer #herrajes .card .imgContainer {
   border-bottom: dashed 1px #828282;
   background-color: #d2cfcf;
 }
-body main .herrajesContainer #herrajes .card .imgContainer .img {
+body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .herrajesContainer #herrajes .card .infoContainer {
+body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-body main .herrajesContainer #herrajes .card .infoContainer h3 {
+body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
 }
-body main .herrajesContainer #herrajes .card .infoContainer .precio {
+body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
@@ -93,7 +104,7 @@ body main .herrajesContainer #herrajes .card .infoContainer .precio {
 header nav {
   width: 100%;
   height: 60px;
-  background-color: #1565c0;
+  background-color: #084a95;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,6 +116,9 @@ header nav .logoContainer {
 }
 header nav .logoContainer .logo {
   width: 100%;
+}
+header nav .fa-solid {
+  display: none;
 }
 header nav ul {
   display: flex;
@@ -119,6 +133,145 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #efefef;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    height: 70px;
+    justify-content: none;
+    position: relative;
+  }
+  header nav .logoContainer {
+    width: 50%;
+    margin-left: 10px;
+  }
+  header nav .logoContainer .logo {
+    transform: translateY(5px);
+  }
+  header nav .fa-solid {
+    display: block;
+    margin-right: 40px;
+    font-size: 25px;
+    color: white;
+    z-index: 2;
+  }
+  header nav ul {
+    background-color: #084a95;
+    padding-top: 80px;
+    padding-left: 20px;
+    position: absolute;
+    flex-direction: column;
+    margin-right: 0;
+    width: 150px;
+    height: 100vh;
+    right: -150px;
+    top: 0;
+    transition: 0.6s ease;
+  }
+  header nav ul li {
+    margin-top: 20px;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  header nav .animation {
+    right: 0;
+  }
+}
+body main .accesoriosSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+body main .accesoriosSection .accesoriosContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .accesoriosSection .accesoriosContainer .fa-chevron-left,
+body main .accesoriosSection .accesoriosContainer .fa-chevron-left-acc,
+body main .accesoriosSection .accesoriosContainer .fa-chevron-right,
+body main .accesoriosSection .accesoriosContainer .fa-chevron-right-acc {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+body main .accesoriosSection .accesoriosContainer .fa-chevron-left.hidden,
+body main .accesoriosSection .accesoriosContainer .fa-chevron-left-acc.hidden,
+body main .accesoriosSection .accesoriosContainer .fa-chevron-right.hidden,
+body main .accesoriosSection .accesoriosContainer .fa-chevron-right-acc.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+body main .accesoriosSection .accesoriosContainer .fa-chevron-right {
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+body main .accesoriosSection .accesoriosContainer .fa-chevron-left {
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+body main .accesoriosSection .accesoriosContainer .fa-solid {
+  transition: all 0.5s;
+}
+body main .accesoriosSection .accesoriosContainer .fa-solid:hover {
+  transform: scale(1.3);
+  color: #084a95;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios {
+  width: calc(90% - 60px);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios .card {
+  border: solid 1px #828282;
+  flex: 0 0 calc(25% - 10px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #efefef;
+  box-shadow: rgba(0, 0, 0, 0.1254901961) 0px 0px 7px 1px;
+  height: auto;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer {
+  box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-bottom: dashed 1px #828282;
+  background-color: #d2cfcf;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer .img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer h3 {
+  height: 100%;
+  font-size: 12px;
+}
+body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer .precio {
+  color: green;
+  height: 100%;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=styles.css.map */

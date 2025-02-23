@@ -1,30 +1,34 @@
-class BaseDeDatosProductos {
+const menu = document.querySelector(".fa-bars");
+
+menu.addEventListener("click", () => {
+  const ul = document.querySelector("ul");
+  ul.classList.toggle("animation");
+});
+
+class BaseDeDatosHerrajes {
   constructor() {
-    this.productos = [];
+    this.herrajes = [];
     this.cargarRegistros();
   }
 
   async cargarRegistros() {
     const resultado = await fetch("./JSON/herrajes.json");
-    this.productos = await resultado.json();
-    cargarProductos(this.productos); // Pasa el array de productos aquí
+    this.herrajes = await resultado.json();
+    cargarProductos(this.herrajes); // Pasa el array de productos aquí
   }
 }
 
-const bdp = new BaseDeDatosProductos();
+const bdh = new BaseDeDatosHerrajes();
 
-console.log(bdp);
+console.log(bdh);
 
-const productos = document.getElementById("herrajes");
+const herrajes = document.getElementById("herrajes");
 
 function cargarProductos(productosArray) {
-  // Cambié el nombre a productosArray para evitar confusión
-  productos.innerHTML = ""; // Limpia el contenido antes de agregar nuevos productos
+  herrajes.innerHTML = ""; 
 
-  // Recorre el array de productos
   for (const producto of productosArray) {
-    // Ahora iteramos sobre el array 'productosArray'
-    productos.innerHTML += `
+    herrajes.innerHTML += `
         <div class="card">
           <div class="imgContainer">
             <img class="img" src="${producto.img}" alt="${producto.nombre}" />
@@ -57,6 +61,67 @@ document.addEventListener("DOMContentLoaded", function () {
 
   btnLeft.addEventListener("click", () => {
     herrajesContainer.scrollBy({ 
+      left: -getScrollAmount(), 
+      behavior: "smooth" 
+    });
+  });
+});
+
+class BaseDeDatosAccesorios {
+  constructor() {
+    this.accesorios = [];
+    this.cargarRegistros();
+  }
+
+  async cargarRegistros() {
+    const resultado = await fetch("./JSON/accesorios.json");
+    this.accesorios = await resultado.json();
+    cargarProductosAccesorios(this.accesorios);
+  }
+}
+
+const bda = new BaseDeDatosAccesorios();
+
+console.log(bda);
+
+const accesorios = document.getElementById("accesorios");
+
+function cargarProductosAccesorios(productosArray) {
+  accesorios.innerHTML = ""; 
+
+  for (const producto of productosArray) {
+    accesorios.innerHTML += `
+        <div class="card">
+          <div class="imgContainer">
+            <img class="img" src="${producto.img}" alt="${producto.nombre}" />
+          </div>
+          <div class="infoContainer">
+            <h3>${producto.nombre}</h3>
+            <p class="precio">$${producto.precio}</p>
+          </div>
+        </div>
+    `;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const accesoriosContainer = document.getElementById("accesorios");
+  const btnLeftAcc = document.querySelector(".fa-chevron-left-acc");
+  const btnRightAcc = document.querySelector(".fa-chevron-right-acc");
+
+  function getScrollAmount() {
+    return accesoriosContainer.offsetWidth / 4;
+  }
+
+  btnRightAcc.addEventListener("click", () => {
+    accesoriosContainer.scrollBy({ 
+      left: getScrollAmount(), 
+      behavior: "smooth" 
+    });
+  });
+
+  btnLeftAcc.addEventListener("click", () => {
+    accesoriosContainer.scrollBy({ 
       left: -getScrollAmount(), 
       behavior: "smooth" 
     });

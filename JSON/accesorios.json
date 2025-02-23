@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nombre": "cristo recortado",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Cristo Recortado.PNG",
+    "alt": ""
+  },
+  {
+    "id": 2,
+    "nombre": "cruz calada",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Cruz Calada.PNG",
+    "alt": ""
+  },
+  {
+    "id": 3,
+    "nombre": "cruz laurel",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/cruz laurel.PNG",
+    "alt": ""
+  },
+  {
+    "id": 4,
+    "nombre": "cuerpo de 32",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/cuerpo de 32.PNG",
+    "alt": ""
+  },
+  {
+    "id": 5,
+    "nombre": "Medallon",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Medallon.PNG",
+    "alt": ""
+  },
+  {
+    "id": 6,
+    "nombre": "Placa Jarron",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa Jarron.PNG",
+    "alt": ""
+  },
+  {
+    "id": 7,
+    "nombre": "Placa QEPD",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa QEPD.PNG",
+    "alt": ""
+  },
+  {
+    "id": 8,
+    "nombre": "Tubo",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Tubo.PNG",
+    "alt": ""
+  },
+  {
+    "id": 9,
+    "nombre": "Virgen del Niño",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Virgen del Nino.PNG",
+    "alt": ""
+  }
+]
