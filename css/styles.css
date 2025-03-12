@@ -1,7 +1,9 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: "liter", serif;
 }
 
@@ -109,7 +111,7 @@ body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .pr
 
 @media (max-width: 768px) {
   body main .herrajesSection {
-    height: 40vh;
+    height: 35vh;
     margin-top: 0;
   }
   body main .herrajesSection .herrajesContainer .fa-solid {
@@ -187,7 +189,7 @@ header nav ul li a {
     margin-right: 40px;
     font-size: 25px;
     color: white;
-    z-index: 2;
+    z-index: 4;
   }
   header nav ul {
     background-color: #084a95;
@@ -201,7 +203,7 @@ header nav ul li a {
     right: -150px;
     top: 0;
     transition: 0.6s ease;
-    z-index: 1;
+    z-index: 3;
   }
   header nav ul li {
     margin-top: 20px;
@@ -218,6 +220,7 @@ body main .accesoriosSection {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 body main .accesoriosSection .accesoriosContainer {
   width: 90%;
@@ -311,7 +314,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContain
 
 @media (max-width: 768px) {
   body main .accesoriosSection {
-    height: 40vh;
+    height: 35vh;
     margin-top: 0;
   }
   body main .accesoriosSection .accesoriosContainer .fa-solid {
@@ -371,6 +374,152 @@ body .sobreNosotros .textContainer p {
   text-align: center;
   color: #efefef;
   text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.7), 1px 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 737px) {
+  body .sobreNosotros {
+    height: 50vh; /* Ajusta la altura para móviles */
+    /* Oscurece la imagen de fondo en móviles sin hover */
+    background-position: 50% 50%;
+  }
+  body .sobreNosotros::before {
+    background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
+  }
+  body .sobreNosotros .textContainer {
+    height: auto;
+    margin: 0px 10px; /* Ajusta el margen */
+  }
+  body .sobreNosotros .textContainer p {
+    font-size: 18px; /* Ajusta el tamaño del texto para móviles */
+  }
+}
+body footer {
+  width: 100%;
+  height: 100px;
+  background-color: #084a95;
+  display: flex;
+  justify-content: space-around;
+}
+body footer .footer01 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+body footer .footer01 img {
+  width: 70%;
+}
+body footer .footer02 {
+  width: 40%;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body footer .footer02 .locationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+body footer .footer02 .locationContainer a {
+  display: flex;
+  align-items: center;
+  color: #efefef;
+  gap: 5px;
+  text-decoration: none;
+}
+body footer .footer02 .emailContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+body footer .footer02 .emailContainer a {
+  display: flex;
+  align-items: center;
+  color: #efefef;
+  gap: 5px;
+  text-decoration: none;
+}
+body footer .footer02 .wpContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+body footer .footer02 .wpContainer a {
+  display: flex;
+  align-items: center;
+  color: #efefef;
+  gap: 5px;
+  text-decoration: none;
+}
+
+@media (max-width: 737px) {
+  body footer {
+    width: 100%;
+    height: auto;
+    background-color: #084a95;
+    display: inline-block;
+    justify-content: space-around;
+  }
+  body footer .footer01 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  body footer .footer01 img {
+    width: 50%;
+  }
+  body footer .footer02 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0px 30px 0px;
+  }
+  body footer .footer02 .locationContainer {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  body footer .footer02 .locationContainer a {
+    display: flex;
+    align-items: center;
+    color: #efefef;
+    gap: 5px;
+    text-decoration: none;
+  }
+  body footer .footer02 .emailContainer {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  body footer .footer02 .emailContainer a {
+    display: flex;
+    align-items: center;
+    color: #efefef;
+    gap: 5px;
+    text-decoration: none;
+  }
+  body footer .footer02 .wpContainer {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  body footer .footer02 .wpContainer a {
+    display: flex;
+    align-items: center;
+    color: #efefef;
+    gap: 5px;
+    text-decoration: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
