@@ -1,8 +1,15 @@
 const menu = document.querySelector(".fa-bars");
+const ul = document.querySelector("ul");
+const lis = document.querySelectorAll("li");
 
 menu.addEventListener("click", () => {
-  const ul = document.querySelector("ul");
   ul.classList.toggle("animation");
+});
+
+lis.forEach(li => {
+  li.addEventListener("click", () => {
+    ul.classList.toggle("animation")
+  });
 });
 
 class BaseDeDatosHerrajes {
