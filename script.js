@@ -35,7 +35,6 @@ function cargarProductos(productosArray) {
           </div>
           <div class="infoContainer">
             <h3>${producto.nombre}</h3>
-            <p class="precio">$${producto.precio}</p>
           </div>
         </div>
     `;
@@ -97,7 +96,6 @@ function cargarProductosAccesorios(productosArray) {
           </div>
           <div class="infoContainer">
             <h3>${producto.nombre}</h3>
-            <p class="precio">$${producto.precio}</p>
           </div>
         </div>
     `;
