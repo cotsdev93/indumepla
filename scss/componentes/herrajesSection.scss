@@ -59,19 +59,20 @@ body {
             margin: 0 5px;
             border-radius: 10px;
             overflow: hidden;
-            background-color: $second;
+            background-color: $whiteText;
             box-shadow: #00000020 0px 0px 7px 1px;
             height: auto;
             box-sizing: border-box;
             cursor: pointer;
+            
             .imgContainer {
               box-shadow: inset 0px 0px 6px 1px #00000030;
               display: flex;
               justify-content: center;
               align-items: center;
-              background-color: $gris;
+              background-color: $grisBackground;
               border-bottom: dashed 1px $grisO;
-              background-color: #d2cfcf;
+              background-color: #f1ebeb;
               .img {
                 width: 80%;
                 height: 100%;

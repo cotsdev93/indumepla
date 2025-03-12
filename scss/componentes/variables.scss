@@ -1,8 +1,8 @@
-$main: #1565c0 ;
 $main: #084a95 ;
-$second: #efefef;
-$gris: #f2f2f2;
-$grisO: #828282;
+$whiteText: #efefef;
+$grisBackground: #f2f2f2;
+$grisO: #abaaaa;
+$grisText: #494949;
 
 *{
     margin: 0;
@@ -14,7 +14,6 @@ $grisO: #828282;
 body {
   position: relative;
   width: 100%;
-  background-color: $gris;
   border: none;
 }
 

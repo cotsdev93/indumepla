@@ -8,7 +8,6 @@
 body {
   position: relative;
   width: 100%;
-  background-color: #f2f2f2;
   border: none;
 }
 
@@ -64,7 +63,7 @@ body main .herrajesSection .herrajesContainer #herrajes {
   overflow: hidden;
 }
 body main .herrajesSection .herrajesContainer #herrajes .card {
-  border: solid 1px #828282;
+  border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
   display: flex;
@@ -84,8 +83,8 @@ body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  border-bottom: dashed 1px #828282;
-  background-color: #d2cfcf;
+  border-bottom: dashed 1px #abaaaa;
+  background-color: #f1ebeb;
 }
 body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer .img {
   width: 80%;
@@ -266,7 +265,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios {
   overflow: hidden;
 }
 body main .accesoriosSection .accesoriosContainer #accesorios .card {
-  border: solid 1px #828282;
+  border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
   display: flex;
@@ -286,8 +285,8 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContaine
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  border-bottom: dashed 1px #828282;
-  background-color: #d2cfcf;
+  border-bottom: dashed 1px #abaaaa;
+  background-color: #f1ebeb;
 }
 body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer .img {
   width: 80%;
@@ -332,6 +331,46 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContain
   body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer h3, body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer .precio {
     font-size: 17px;
   }
+}
+body .sobreNosotros {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: #f2f2f2;
+  background-image: url("../assets/img/welderAboutUs.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body .sobreNosotros::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+body .sobreNosotros:hover::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: blur(3px);
+}
+body .sobreNosotros .textContainer {
+  margin: 0px 40px;
+  position: relative;
+  z-index: 2;
+}
+body .sobreNosotros .textContainer p {
+  font-size: 18px;
+  margin: 20px 0px;
+  text-align: center;
+  color: #efefef;
+  text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.7), 1px 1px 2px rgba(255, 255, 255, 0.4);
 }
 
 /*# sourceMappingURL=styles.css.map */
