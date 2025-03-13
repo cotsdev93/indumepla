@@ -109,7 +109,7 @@ body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .pr
   font-size: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 737px) {
   body main .herrajesSection {
     height: 35vh;
     margin-top: 0;
@@ -171,7 +171,7 @@ header nav ul li a {
   color: #efefef;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 737px) {
   header nav {
     height: 70px;
     justify-content: space-between;
@@ -312,7 +312,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContain
   font-size: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 737px) {
   body main .accesoriosSection {
     height: 35vh;
     margin-top: 0;
