@@ -41,7 +41,7 @@ function cargarProductos(productosArray) {
             <img class="img" src="${producto.img}" alt="${producto.nombre}" />
           </div>
           <div class="infoContainer">
-            <h3>${producto.nombre}</h3>
+            <h3>${producto.nombre}</h3> <p class="medidas">${producto.medidas}</p>
           </div>
         </div>
     `;

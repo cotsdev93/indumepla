@@ -97,11 +97,21 @@ body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer .img
 body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
 }
 body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
+}
+body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .medidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .precio {
   color: green;
@@ -128,7 +138,8 @@ body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .pr
   body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer {
     min-height: 40px;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer h3, body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .precio {
+  body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer h3,
+  body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .precio {
     font-size: 17px;
   }
 }

@@ -64,7 +64,7 @@ body {
             height: auto;
             box-sizing: border-box;
             cursor: pointer;
-            
+
             .imgContainer {
               box-shadow: inset 0px 0px 6px 1px #00000030;
               display: flex;
@@ -85,12 +85,23 @@ body {
               // background-color: red;
               display: flex;
               align-items: center;
-              justify-content: space-around;
+              justify-content: center;
+              gap: 10px;
               // border: solid 5px blue;
               h3 {
                 // border: solid 1px blue;
                 height: 100%;
                 font-size: 12px;
+              }
+              .medidas {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: gray;
+                font-size: 10px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                // border: solid 1px red;
               }
               .precio {
                 // display: flex ;
@@ -113,24 +124,25 @@ body {
   body main .herrajesSection {
     height: 35vh;
     margin-top: 0;
-    
+
     .herrajesContainer {
       .fa-solid {
         display: none;
       }
-      
+
       #herrajes {
         width: 90%;
         height: auto;
         overflow-x: auto;
-        
+
         .card {
           flex: 0 0 calc(100% - 10px);
-          
+
           .infoContainer {
             min-height: 40px;
-            
-            h3, .precio {
+
+            h3,
+            .precio {
               font-size: 17px;
             }
           }
