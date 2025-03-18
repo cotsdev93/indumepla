@@ -79,5 +79,75 @@
     "descripcion": "",
     "img": "./assets/img/Virgen del Nino.PNG",
     "alt": ""
+  },
+  {
+    "id": 10,
+    "nombre": "Estrella de David",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Estrella de David 11x12.PNG",
+    "alt": "",
+    "medidas": "11 x 12"
+  },
+  {
+    "id": 11,
+    "nombre": "Placa 49",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa 49 12x8.PNG",
+    "alt": "",
+    "medidas": "12 x 8"
+  },
+  {
+    "id": 12,
+    "nombre": "Placa 49 Estampada",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa 49 Estampada 12x7.PNG",
+    "alt": "",
+    "medidas": "12 x 7"
+  },
+  {
+    "id": 13,
+    "nombre": "Placa Angelito",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa Angelito 12x8.PNG",
+    "alt": "",
+    "medidas": "12 x 8"
+  },
+  {
+    "id": 14,
+    "nombre": "Placa Cofre",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa Cofre 18x14.PNG",
+    "alt": "",
+    "medidas": "18 x 14"
+  },
+  {
+    "id": 15,
+    "nombre": "Placa Laurel",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Placa Laurel 14x12.PNG",
+    "alt": "",
+    "medidas": "14 x 12"
+  },
+  {
+    "id": 16,
+    "nombre": "Virgen de Lourdes",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/Virgen de Lourdes 13x16.PNG",
+    "alt": "",
+    "medidas": "13 x 16"
   }
 ]

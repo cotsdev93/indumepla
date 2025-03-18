@@ -293,7 +293,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContaine
 }
 body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer .img {
   width: 80%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 }

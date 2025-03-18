@@ -77,9 +77,11 @@ body {
               background-color:  #f1ebeb;
               .img {
                 width: 80%;
-                height: 100%;
+                height: auto;
                 object-fit: cover;
                 display: block;
+                // padding: 20px;
+
               }
             }
             .infoContainer {
