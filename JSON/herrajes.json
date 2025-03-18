@@ -15,7 +15,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/1026 B.PNG",
+    "img": "./assets/img/1026B.PNG",
     "alt": "",
     "medidas": "22cm x 17cm"
   },
@@ -35,7 +35,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Abanico B.PNG",
+    "img": "./assets/img/AbanicoB.PNG",
     "alt": "",
     "medidas": "28cm x 16cm"
   },
@@ -55,7 +55,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Alita Chica.PNG",
+    "img": "./assets/img/AlitaChica.PNG",
     "alt": "",
     "medidas": "22cm x 15cm"
   },
@@ -65,7 +65,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Alita Rallada 1.PNG",
+    "img": "./assets/img/AlitaRallada1.PNG",
     "alt": "",
     "medidas": "24cm x 17cm"
   },
@@ -75,7 +75,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Alita Rallada 2.PNG",
+    "img": "./assets/img/AlitaRallada2.PNG",
     "alt": "",
     "medidas": "24cm x 17cm"
   },
@@ -85,7 +85,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Alita Super.PNG",
+    "img": "./assets/img/AlitaSuper.PNG",
     "alt": "",
     "medidas": "25cm x 18cm"
   },

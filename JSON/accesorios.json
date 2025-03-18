@@ -5,7 +5,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Cristo Recortado.PNG",
+    "img": "./assets/img/CristoRecortado.PNG",
     "alt": "",
     "medidas": "12cm x 8cm"
   },
@@ -15,7 +15,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Cruz Calada.PNG",
+    "img": "./assets/img/CruzCalada.PNG",
     "alt": "",
     "medidas": "10cm x 27cm"
   },
@@ -55,7 +55,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa Jarron.PNG",
+    "img": "./assets/img/PlacaJarron.PNG",
     "alt": "",
     "medidas": "16cm x 16cm"
   },
@@ -65,7 +65,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa QEPD.PNG",
+    "img": "./assets/img/PlacaQEPD.PNG",
     "alt": "",
     "medidas": "15cm x 13cm"
   },
@@ -85,7 +85,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Virgen del Nino.PNG",
+    "img": "./assets/img/VirgendelNino.PNG",
     "alt": "",
     "medidas": "16cm x 24cm"
   },
@@ -95,7 +95,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Estrella de David 11x12.PNG",
+    "img": "./assets/img/EstrelladeDavid.PNG",
     "alt": "",
     "medidas": "11cm x 12cm"
   },
@@ -105,7 +105,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa 49 12x8.PNG",
+    "img": "./assets/img/Placa49.PNG",
     "alt": "",
     "medidas": "12cm x 8cm"
   },
@@ -115,7 +115,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa 49 Estampada 12x7.PNG",
+    "img": "./assets/img/Placa49Estampada.PNG",
     "alt": "",
     "medidas": "12cm x 7cm"
   },
@@ -125,7 +125,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa Angelito 12x8.PNG",
+    "img": "./assets/img/PlacaAngelito.PNG",
     "alt": "",
     "medidas": "12cm x 8cm"
   },
@@ -135,7 +135,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa Cofre 18x14.PNG",
+    "img": "./assets/img/PlacaCofre.PNG",
     "alt": "",
     "medidas": "18cm x 14cm"
   },
@@ -145,7 +145,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Placa Laurel 14x12.PNG",
+    "img": "./assets/img/PlacaLaurel.PNG",
     "alt": "",
     "medidas": "14cm x 12cm"
   },
@@ -155,7 +155,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/Virgen de Lourdes 13x16.PNG",
+    "img": "./assets/img/VirgendeLourdes.PNG",
     "alt": "",
     "medidas": "13cm x 16cm"
   }
