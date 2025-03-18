@@ -293,23 +293,30 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContaine
 }
 body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer .img {
   width: 80%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
 body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
 }
 body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer .precio {
-  color: green;
-  height: 100%;
-  font-size: 12px;
+body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer .medidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 737px) {

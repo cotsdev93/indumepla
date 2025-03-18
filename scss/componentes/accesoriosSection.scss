@@ -77,7 +77,7 @@ body {
               background-color:  #f1ebeb;
               .img {
                 width: 80%;
-                height: auto;
+                height: 100%;
                 object-fit: cover;
                 display: block;
                 // padding: 20px;
@@ -89,21 +89,22 @@ body {
               // background-color: red;
               display: flex;
               align-items: center;
-              justify-content: space-around;
+              justify-content: center;
+              gap: 10px;
               // border: solid 5px blue;
               h3 {
                 // border: solid 1px blue;
                 height: 100%;
                 font-size: 12px;
+                white-space: nowrap;text-overflow: ellipsis;
               }
-              .precio {
-                // display: flex ;
-                // justify-content: center;
-                // align-items: center;
-                // border: solid 1px blue;
-                color: green;
-                height: 100%;
-                font-size: 12px;
+              .medidas {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: gray;
+                font-size: 10px;         white-space: nowrap;text-overflow: ellipsis;
+                // border: solid 1px red;
               }
             }
           }

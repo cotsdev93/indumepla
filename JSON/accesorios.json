@@ -6,7 +6,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Cristo Recortado.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "12cm x 8cm"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Cruz Calada.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "10cm x 27cm"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/cruzLaurel.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "19cm x 30cm"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/cuerpoDeTreintaDos.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "22cm x 36cm"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Medallon.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "21cm x 21cm"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Placa Jarron.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "16cm x 16cm"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Placa QEPD.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "15cm x 13cm"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Tubo.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "33cm x 12cm"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Virgen del Nino.PNG",
-    "alt": ""
+    "alt": "",
+    "medidas": "16cm x 24cm"
   },
   {
     "id": 10,
@@ -88,7 +97,7 @@
     "descripcion": "",
     "img": "./assets/img/Estrella de David 11x12.PNG",
     "alt": "",
-    "medidas": "11 x 12"
+    "medidas": "11cm x 12cm"
   },
   {
     "id": 11,
@@ -98,17 +107,17 @@
     "descripcion": "",
     "img": "./assets/img/Placa 49 12x8.PNG",
     "alt": "",
-    "medidas": "12 x 8"
+    "medidas": "12cm x 8cm"
   },
   {
     "id": 12,
-    "nombre": "Placa 49 Estampada",
+    "nombre": "Placa 49 Estamp",
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
     "img": "./assets/img/Placa 49 Estampada 12x7.PNG",
     "alt": "",
-    "medidas": "12 x 7"
+    "medidas": "12cm x 7cm"
   },
   {
     "id": 13,
@@ -118,7 +127,7 @@
     "descripcion": "",
     "img": "./assets/img/Placa Angelito 12x8.PNG",
     "alt": "",
-    "medidas": "12 x 8"
+    "medidas": "12cm x 8cm"
   },
   {
     "id": 14,
@@ -128,7 +137,7 @@
     "descripcion": "",
     "img": "./assets/img/Placa Cofre 18x14.PNG",
     "alt": "",
-    "medidas": "18 x 14"
+    "medidas": "18cm x 14cm"
   },
   {
     "id": 15,
@@ -138,7 +147,7 @@
     "descripcion": "",
     "img": "./assets/img/Placa Laurel 14x12.PNG",
     "alt": "",
-    "medidas": "14 x 12"
+    "medidas": "14cm x 12cm"
   },
   {
     "id": 16,
@@ -148,6 +157,6 @@
     "descripcion": "",
     "img": "./assets/img/Virgen de Lourdes 13x16.PNG",
     "alt": "",
-    "medidas": "13 x 16"
+    "medidas": "13cm x 16cm"
   }
 ]
