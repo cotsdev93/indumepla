@@ -43,6 +43,10 @@ function cargarProductos(productosArray, containerId = 'herrajes') {
           <i class="fa-solid fa-xmark"></i>
         </div>
         <img src="" alt="Zoom view" />
+        <div class="zoom-info">
+          <h3 class="zoom-title"></h3>
+          <p class="zoom-medidas"></p>
+        </div>
       </div>
       ${container.innerHTML}
     `;
@@ -70,11 +74,13 @@ function setupZoomHandlers(container) {
   const images = container.querySelectorAll('.imgContainer img');
   const zoomView = container.querySelector('.zoom-view');
   const zoomImage = zoomView.querySelector('img');
+  const zoomTitle = zoomView.querySelector('.zoom-title');
+  const zoomMedidas = zoomView.querySelector('.zoom-medidas');
   const overlay = container.querySelector('.overlay');
   const closeBtn = container.querySelector('.close-btn');
 
   // Función para abrir el zoom
-  const openZoom = (imgSrc) => {
+  const openZoom = (imgSrc, title, medidas) => {
     zoomView.style.display = 'block';
     overlay.style.display = 'block';
     // Forzar un reflow para que la animación funcione
@@ -82,6 +88,8 @@ function setupZoomHandlers(container) {
     void overlay.offsetWidth;
     
     zoomImage.src = imgSrc;
+    zoomTitle.textContent = title;
+    zoomMedidas.textContent = medidas;
     zoomView.classList.add('active');
     overlay.classList.add('active');
   };
@@ -100,7 +108,10 @@ function setupZoomHandlers(container) {
 
   // Event listeners
   images.forEach(img => {
-    img.addEventListener('click', () => openZoom(img.src));
+    const card = img.closest('.card');
+    const title = card.querySelector('h3').textContent;
+    const medidas = card.querySelector('.medidas').textContent;
+    img.addEventListener('click', () => openZoom(img.src, title, medidas));
   });
 
   closeBtn.addEventListener('click', (e) => {
