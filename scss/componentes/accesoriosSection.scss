@@ -1,45 +1,42 @@
 body {
   main {
     .accesoriosSection {
-      // height: 50vh;
+      margin-top: 20px;
+      margin-bottom: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      // border: solid 1px red;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      
       .accesoriosContainer {
         width: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
-        .fa-chevron-left,
+        
         .fa-chevron-left-acc,
-        .fa-chevron-right,
         .fa-chevron-right-acc {
           opacity: 1;
           visibility: visible;
           transition: opacity 0.3s ease, visibility 0.3s ease;
+          
+          &.hidden {
+            opacity: 0;
+            visibility: hidden;
+          }
         }
-
-        .fa-chevron-left.hidden,
-        .fa-chevron-left-acc.hidden,
-        .fa-chevron-right.hidden,
-        .fa-chevron-right-acc.hidden {
-          opacity: 0;
-          visibility: hidden;
-          transition: opacity 0.3s ease, visibility 0.3s ease;
-        }
-        .fa-chevron-right {
+        
+        .fa-chevron-right-acc {
           font-size: 15px;
           margin-left: 10px;
           cursor: pointer;
         }
-        .fa-chevron-left {
+        
+        .fa-chevron-left-acc {
           font-size: 15px;
           margin-right: 10px;
           cursor: pointer;
         }
+        
         .fa-solid {
           transition: all 0.5s;
           &:hover {
@@ -47,12 +44,82 @@ body {
             color: $main;
           }
         }
+        
         #accesorios {
+          position: relative;
           width: calc(90% - 60px);
           display: flex;
           align-items: center;
           overflow: hidden;
-          // height: 180px;
+          
+          .zoom-view {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.7);
+            z-index: 1000;
+            background-color: #f1ebeb;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            opacity: 0;
+            transition: all 0.3s ease;
+            
+            .close-btn {
+              position: absolute;
+              top: -15px;
+              right: -15px;
+              width: 25px;
+              height: 25px;
+              background-color: #fff;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+              transition: all 0.3s ease;
+            
+              
+              i {
+                color: #333;
+                font-size: 16px;
+              }
+            }
+            
+            img {
+              max-width: 90vw;
+              max-height: 80vh;
+              object-fit: contain;
+            }
+            
+            &.active {
+              display: block;
+              opacity: 1;
+              transform: translate(-50%, -50%) scale(1);
+            }
+          }
+          
+          .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            
+            &.active {
+              display: block;
+              opacity: 1;
+              
+            }
+          }
+          
           .card {
             border: solid 1px $grisO;
             flex: 0 0 calc(25% - 10px);
@@ -67,44 +134,44 @@ body {
             height: auto;
             box-sizing: border-box;
             cursor: pointer;
+            
             .imgContainer {
               box-shadow: inset 0px 0px 6px 1px #00000030;
               display: flex;
               justify-content: center;
               align-items: center;
-              background-color: $grisBackground;
+              background-color: #f1ebeb;
               border-bottom: dashed 1px $grisO;
-              background-color:  #f1ebeb;
+              
               .img {
                 width: 80%;
                 height: 100%;
                 object-fit: cover;
                 display: block;
-                // padding: 20px;
-
               }
             }
+            
             .infoContainer {
-              // max-height: 40px;
-              // background-color: red;
               display: flex;
               align-items: center;
               justify-content: center;
               gap: 10px;
-              // border: solid 5px blue;
+              
               h3 {
-                // border: solid 1px blue;
                 height: 100%;
                 font-size: 12px;
-                white-space: nowrap;text-overflow: ellipsis;
+                white-space: nowrap;
+                text-overflow: ellipsis;
               }
+              
               .medidas {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 color: gray;
-                font-size: 10px;         white-space: nowrap;text-overflow: ellipsis;
-                // border: solid 1px red;
+                font-size: 10px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
               }
             }
           }
@@ -113,7 +180,6 @@ body {
     }
   }
 }
-
 
 @media (max-width: 737px) {
   body main .accesoriosSection {
@@ -129,14 +195,29 @@ body {
         width: 90%;
         height: auto;
         overflow-x: auto;
-        
+
+        .zoom-view {
+          .close-btn {
+            width: 30px;
+            height: 30px;
+            i {
+              display: block;
+            }
+          }
+          
+          img {
+            max-width: 70vw;
+            max-height: 60vh;
+          }
+        }
+
         .card {
           flex: 0 0 calc(100% - 10px);
           
           .infoContainer {
             min-height: 40px;
             
-            h3, .precio {
+            h3 {
               font-size: 17px;
             }
           }
