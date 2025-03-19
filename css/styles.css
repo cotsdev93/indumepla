@@ -778,11 +778,13 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoCont
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
 }
 body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer .medidas {
   display: flex;
@@ -945,11 +947,13 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .in
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
 }
 body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .infoContainer .medidas {
   display: flex;
@@ -1090,7 +1094,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .overlay.
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 2px;
   }
   body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer h3 {
     height: 100%;

@@ -53,12 +53,14 @@ body {
               display: flex;
               align-items: center;
               justify-content: center;
-              gap: 10px;
+              gap: 5px;
               // border: solid 5px blue;
               h3 {
                 // border: solid 1px blue;
                 height: 100%;
                 font-size: 12px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
               }
               .medidas {
                 display: flex;
@@ -244,12 +246,14 @@ body {
               display: flex;
               align-items: center;
               justify-content: center;
-              gap: 10px;
+              gap: 5px;
               // border: solid 5px blue;
               h3 {
                 // border: solid 1px blue;
                 height: 100%;
                 font-size: 12px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
               }
               .medidas {
                 display: flex;
@@ -409,8 +413,8 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 5px;
-                
+                gap: 2px;
+
                 h3 {
                   // border: solid 1px blue;
                   height: 100%;
@@ -569,7 +573,6 @@ body {
                 }
               }
               .infoContainer {
-
                 display: flex;
                 align-items: center;
                 justify-content: center;
