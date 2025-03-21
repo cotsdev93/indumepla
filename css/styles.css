@@ -340,51 +340,51 @@ header nav ul li a {
     right: 0;
   }
 }
-body main .accesoriosSection {
+body main .placasSection {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body main .accesoriosSection .accesoriosContainer {
+body main .placasSection .placasContainer {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body main .accesoriosSection .accesoriosContainer .fa-chevron-left-acc,
-body main .accesoriosSection .accesoriosContainer .fa-chevron-right-acc {
+body main .placasSection .placasContainer .fa-chevron-left-acc,
+body main .placasSection .placasContainer .fa-chevron-right-acc {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer .fa-chevron-left-acc.hidden,
-body main .accesoriosSection .accesoriosContainer .fa-chevron-right-acc.hidden {
+body main .placasSection .placasContainer .fa-chevron-left-acc.hidden,
+body main .placasSection .placasContainer .fa-chevron-right-acc.hidden {
   opacity: 0;
   visibility: hidden;
 }
-body main .accesoriosSection .accesoriosContainer .fa-chevron-right-acc {
+body main .placasSection .placasContainer .fa-chevron-right-acc {
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
-body main .accesoriosSection .accesoriosContainer .fa-chevron-left-acc {
+body main .placasSection .placasContainer .fa-chevron-left-acc {
   font-size: 15px;
   margin-right: 10px;
   cursor: pointer;
 }
-body main .accesoriosSection .accesoriosContainer .fa-solid {
+body main .placasSection .placasContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .accesoriosSection .accesoriosContainer #placas {
+body main .placasSection .placasContainer #placas {
   position: relative;
   width: calc(90% - 60px);
   display: flex;
   align-items: center;
   overflow: hidden;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view {
+body main .placasSection .placasContainer #placas .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -398,7 +398,7 @@ body main .accesoriosSection .accesoriosContainer #placas .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view .close-btn {
+body main .placasSection .placasContainer #placas .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -413,30 +413,30 @@ body main .accesoriosSection .accesoriosContainer #placas .zoom-view .close-btn 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view .close-btn i {
+body main .placasSection .placasContainer #placas .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view img {
+body main .placasSection .placasContainer #placas .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view .zoom-info {
+body main .placasSection .placasContainer #placas .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view .zoom-info .zoom-medidas {
+body main .placasSection .placasContainer #placas .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .accesoriosSection .accesoriosContainer #placas .zoom-view.active {
+body main .placasSection .placasContainer #placas .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .accesoriosSection .accesoriosContainer #placas .overlay {
+body main .placasSection .placasContainer #placas .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -448,11 +448,11 @@ body main .accesoriosSection .accesoriosContainer #placas .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer #placas .overlay.active {
+body main .placasSection .placasContainer #placas .overlay.active {
   display: block;
   opacity: 1;
 }
-body main .accesoriosSection .accesoriosContainer #placas .card {
+body main .placasSection .placasContainer #placas .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -467,7 +467,7 @@ body main .accesoriosSection .accesoriosContainer #placas .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .accesoriosSection .accesoriosContainer #placas .card .imgContainer {
+body main .placasSection .placasContainer #placas .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -475,25 +475,25 @@ body main .accesoriosSection .accesoriosContainer #placas .card .imgContainer {
   background-color: #f1ebeb;
   border-bottom: dashed 1px #abaaaa;
 }
-body main .accesoriosSection .accesoriosContainer #placas .card .imgContainer .img {
+body main .placasSection .placasContainer #placas .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer {
+body main .placasSection .placasContainer #placas .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer h3 {
+body main .placasSection .placasContainer #placas .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer .medidas {
+body main .placasSection .placasContainer #placas .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -504,36 +504,36 @@ body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer .
 }
 
 @media (max-width: 737px) {
-  body main .accesoriosSection {
+  body main .placasSection {
     height: 35vh;
     margin-top: 0;
   }
-  body main .accesoriosSection .accesoriosContainer .fa-solid {
+  body main .placasSection .placasContainer .fa-solid {
     display: none;
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios {
+  body main .placasSection .placasContainer #placas {
     width: 90%;
     height: auto;
     overflow-x: auto;
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .close-btn {
+  body main .placasSection .placasContainer #placas .zoom-view .close-btn {
     width: 30px;
     height: 30px;
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .close-btn i {
+  body main .placasSection .placasContainer #placas .zoom-view .close-btn i {
     display: block;
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view img {
+  body main .placasSection .placasContainer #placas .zoom-view img {
     max-width: 60vw;
     max-height: 50vh;
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios .card {
+  body main .placasSection .placasContainer #placas .card {
     flex: 0 0 calc(100% - 10px);
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer {
+  body main .placasSection .placasContainer #placas .card .infoContainer {
     min-height: 40px;
   }
-  body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer h3 {
+  body main .placasSection .placasContainer #placas .card .infoContainer h3 {
     font-size: 17px;
   }
 }
@@ -1245,6 +1245,204 @@ body main .placasSectionProductos .placasContainer #placas .overlay.active {
     font-size: 8px;
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+}
+body main .crucesSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .crucesSection .crucesContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .crucesSection .crucesContainer .fa-chevron-left-cruces,
+body main .crucesSection .crucesContainer .fa-chevron-right-cruces {
+  margin: 5px;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+body main .crucesSection .crucesContainer .fa-chevron-left-cruces.hidden,
+body main .crucesSection .crucesContainer .fa-chevron-right-cruces.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+body main .crucesSection .crucesContainer .fa-chevron-right-acc {
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+body main .crucesSection .crucesContainer .fa-chevron-left-acc {
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+body main .crucesSection .crucesContainer .fa-solid {
+  transition: all 0.5s;
+}
+body main .crucesSection .crucesContainer #cruces {
+  position: relative;
+  width: calc(90% - 60px);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.7);
+  z-index: 1000;
+  background-color: #f1ebeb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view .close-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view .close-btn i {
+  color: #333;
+  font-size: 16px;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view img {
+  max-width: 70vw;
+  max-height: 70vh;
+  object-fit: contain;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view .zoom-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view .zoom-info .zoom-medidas {
+  color: gray;
+}
+body main .crucesSection .crucesContainer #cruces .zoom-view.active {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+body main .crucesSection .crucesContainer #cruces .overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+body main .crucesSection .crucesContainer #cruces .overlay.active {
+  display: block;
+  opacity: 1;
+}
+body main .crucesSection .crucesContainer #cruces .card {
+  border: solid 1px #abaaaa;
+  flex: 0 0 calc(25% - 10px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #efefef;
+  box-shadow: rgba(0, 0, 0, 0.1254901961) 0px 0px 7px 1px;
+  height: auto;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body main .crucesSection .crucesContainer #cruces .card .imgContainer {
+  box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1ebeb;
+  border-bottom: dashed 1px #abaaaa;
+}
+body main .crucesSection .crucesContainer #cruces .card .imgContainer .img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+body main .crucesSection .crucesContainer #cruces .card .infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+body main .crucesSection .crucesContainer #cruces .card .infoContainer h3 {
+  height: 100%;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body main .crucesSection .crucesContainer #cruces .card .infoContainer .medidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 737px) {
+  body main .crucesSection {
+    height: 35vh;
+    margin-top: 0;
+  }
+  body main .crucesSection .crucesContainer .fa-solid {
+    display: none;
+  }
+  body main .crucesSection .crucesContainer #cruces {
+    width: 90%;
+    height: auto;
+    overflow-x: auto;
+  }
+  body main .crucesSection .crucesContainer #cruces .zoom-view .close-btn {
+    width: 30px;
+    height: 30px;
+  }
+  body main .crucesSection .crucesContainer #cruces .zoom-view .close-btn i {
+    display: block;
+  }
+  body main .crucesSection .crucesContainer #cruces .zoom-view img {
+    max-width: 60vw;
+    max-height: 50vh;
+  }
+  body main .crucesSection .crucesContainer #cruces .card {
+    flex: 0 0 calc(100% - 10px);
+  }
+  body main .crucesSection .crucesContainer #cruces .card .infoContainer {
+    min-height: 40px;
+  }
+  body main .crucesSection .crucesContainer #cruces .card .infoContainer h3 {
+    font-size: 17px;
   }
 }
 

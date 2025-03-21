@@ -1,0 +1,83 @@
+[
+  {
+    "id": 30,
+    "nombre": "Cristo Recortado",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/cristoRecortado.PNG",
+    "alt": "",
+    "medidas": "12cm x 8cm"
+  },
+  {
+    "id": 31,
+    "nombre": "Cruz Calada",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/cruzCalada.PNG",
+    "alt": "",
+    "medidas": "10cm x 27cm"
+  },
+  {
+    "id": 32,
+    "nombre": "Cruz Laurel",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/cruzLaurel.PNG",
+    "alt": "",
+    "medidas": "19cm x 30cm"
+  },
+  {
+    "id": 33,
+    "nombre": "Cuerpo de 32",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/cuerpoDeTreintaDos.PNG",
+    "alt": "",
+    "medidas": "22cm x 36cm"
+  },
+  {
+    "id": 34,
+    "nombre": "Estrella de David",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/estrelladeDavid.PNG",
+    "alt": "",
+    "medidas": "11cm x 12cm"
+  },
+  {
+    "id": 35,
+    "nombre": "Medallon",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/medallon.PNG",
+    "alt": "",
+    "medidas": "21cm x 21cm"
+  },
+
+  {
+    "id": 36,
+    "nombre": "Virgen del Niño",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/VirgendelNino.PNG",
+    "alt": "",
+    "medidas": "16cm x 24cm"
+  },
+  {
+    "id": 37,
+    "nombre": "Virgen de Lourdes",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/crucesYcuerpos/VirgendeLourdes.PNG",
+    "alt": "",
+    "medidas": "13cm x 16cm"
+  }
+]

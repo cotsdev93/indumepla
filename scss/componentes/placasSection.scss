@@ -1,13 +1,13 @@
 body {
   main {
-    .accesoriosSection {
+    .placasSection {
       margin-top: 20px;
       margin-bottom: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       
-      .accesoriosContainer {
+      .placasContainer {
         width: 90%;
         display: flex;
         align-items: center;
@@ -190,16 +190,16 @@ body {
 }
 
 @media (max-width: 737px) {
-  body main .accesoriosSection {
+  body main .placasSection {
     height: 35vh;
     margin-top: 0;
     
-    .accesoriosContainer {
+    .placasContainer {
       .fa-solid {
         display: none;
       }
       
-      #accesorios {
+      #placas {
         width: 90%;
         height: auto;
         overflow-x: auto;
