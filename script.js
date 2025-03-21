@@ -14,23 +14,23 @@ lis.forEach(li => {
 
 class BaseDeDatosManijas {
   constructor() {
-    this.herrajes = [];
+    this.manijas = [];
     this.cargarRegistros();
   }
 
   async cargarRegistros() {
     const resultado = await fetch("./JSON/manijas.json");
-    this.herrajes = await resultado.json();
-    cargarProductos(this.herrajes); // Pasa el array de productos aquí
+    this.manijas = await resultado.json();
+    cargarProductos(this.manijas); // Pasa el array de productos aquí
   }
 }
 
 const bdh = new BaseDeDatosManijas();
 
 
-const herrajes = document.getElementById("herrajes");
+const manijas = document.getElementById("manijas");
 
-function cargarProductos(productosArray, containerId = 'herrajes') {
+function cargarProductos(productosArray, containerId = 'manijas') {
   const container = document.getElementById(containerId);
   
   if (!container) {
@@ -126,28 +126,28 @@ function setupZoomHandlers(container) {
   zoomView.addEventListener('click', closeZoom);
 }
 
-// Para usar en herrajes
-cargarProductos(bdh.herrajes, 'herrajes');
+// Para usar en manijas
+cargarProductos(bdh.manijas, 'manijas');
 
 document.addEventListener("DOMContentLoaded", function () {
-  const herrajesContainer = document.getElementById("herrajes");
+  const manijasContainer = document.getElementById("manijas");
   const btnLeft = document.querySelector(".fa-chevron-left");
   const btnRight = document.querySelector(".fa-chevron-right");
 
   function getScrollAmount() {
     // Obtener el ancho total del contenedor y dividirlo por 4
-    return herrajesContainer.offsetWidth / 4;
+    return manijasContainer.offsetWidth / 4;
   }
 
   btnRight.addEventListener("click", () => {
-    herrajesContainer.scrollBy({ 
+    manijasContainer.scrollBy({ 
       left: getScrollAmount(), 
       behavior: "smooth" 
     });
   });
 
   btnLeft.addEventListener("click", () => {
-    herrajesContainer.scrollBy({ 
+    manijasContainer.scrollBy({ 
       left: -getScrollAmount(), 
       behavior: "smooth" 
     });

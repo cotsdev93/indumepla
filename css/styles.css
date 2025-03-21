@@ -54,14 +54,14 @@ body main .manijasSection .manijasContainer .fa-chevron-left {
 body main .manijasSection .manijasContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .manijasSection .manijasContainer #herrajes {
+body main .manijasSection .manijasContainer #manijas {
   width: calc(90% - 60px);
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
 }
-body main .manijasSection .manijasContainer #herrajes .card {
+body main .manijasSection .manijasContainer #manijas .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -76,7 +76,7 @@ body main .manijasSection .manijasContainer #herrajes .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .manijasSection .manijasContainer #herrajes .card .imgContainer {
+body main .manijasSection .manijasContainer #manijas .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -85,26 +85,26 @@ body main .manijasSection .manijasContainer #herrajes .card .imgContainer {
   border-bottom: dashed 1px #abaaaa;
   background-color: #f1ebeb;
 }
-body main .manijasSection .manijasContainer #herrajes .card .imgContainer .img {
+body main .manijasSection .manijasContainer #manijas .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .manijasSection .manijasContainer #herrajes .card .imgContainer.active {
+body main .manijasSection .manijasContainer #manijas .card .imgContainer.active {
   cursor: zoom-out;
 }
-body main .manijasSection .manijasContainer #herrajes .card .infoContainer {
+body main .manijasSection .manijasContainer #manijas .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-body main .manijasSection .manijasContainer #herrajes .card .infoContainer h3 {
+body main .manijasSection .manijasContainer #manijas .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
 }
-body main .manijasSection .manijasContainer #herrajes .card .infoContainer .medidas {
+body main .manijasSection .manijasContainer #manijas .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,12 +113,12 @@ body main .manijasSection .manijasContainer #herrajes .card .infoContainer .medi
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .manijasSection .manijasContainer #herrajes .card .infoContainer .precio {
+body main .manijasSection .manijasContainer #manijas .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view {
+body main .manijasSection .manijasContainer #manijas .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -132,7 +132,7 @@ body main .manijasSection .manijasContainer #herrajes .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view .close-btn {
+body main .manijasSection .manijasContainer #manijas .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -147,30 +147,30 @@ body main .manijasSection .manijasContainer #herrajes .zoom-view .close-btn {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view .close-btn i {
+body main .manijasSection .manijasContainer #manijas .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view img {
+body main .manijasSection .manijasContainer #manijas .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view .zoom-info {
+body main .manijasSection .manijasContainer #manijas .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view .zoom-info .zoom-medidas {
+body main .manijasSection .manijasContainer #manijas .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .manijasSection .manijasContainer #herrajes .zoom-view.active {
+body main .manijasSection .manijasContainer #manijas .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .manijasSection .manijasContainer #herrajes .overlay {
+body main .manijasSection .manijasContainer #manijas .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -182,7 +182,7 @@ body main .manijasSection .manijasContainer #herrajes .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .manijasSection .manijasContainer #herrajes .overlay.active {
+body main .manijasSection .manijasContainer #manijas .overlay.active {
   display: block;
   opacity: 1;
 }
@@ -741,13 +741,13 @@ body main .manijasSectionProductos .manijasContainer .title {
   color: #084a95;
   margin: 15px 0px 10px 15px;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes {
+body main .manijasSectionProductos .manijasContainer #manijas {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   height: auto;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card {
+body main .manijasSectionProductos .manijasContainer #manijas .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -763,7 +763,7 @@ body main .manijasSectionProductos .manijasContainer #herrajes .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContainer {
+body main .manijasSectionProductos .manijasContainer #manijas .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -772,28 +772,28 @@ body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContain
   border-bottom: dashed 1px #abaaaa;
   background-color: #f1ebeb;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContainer .img {
+body main .manijasSectionProductos .manijasContainer #manijas .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContainer.active {
+body main .manijasSectionProductos .manijasContainer #manijas .card .imgContainer.active {
   cursor: zoom-out;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer {
+body main .manijasSectionProductos .manijasContainer #manijas .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer h3 {
+body main .manijasSectionProductos .manijasContainer #manijas .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer .medidas {
+body main .manijasSectionProductos .manijasContainer #manijas .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -802,12 +802,12 @@ body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContai
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer .precio {
+body main .manijasSectionProductos .manijasContainer #manijas .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -821,7 +821,7 @@ body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .close-btn {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -836,30 +836,30 @@ body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .close
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .close-btn i {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view img {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .zoom-info {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .zoom-info .zoom-medidas {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view.active {
+body main .manijasSectionProductos .manijasContainer #manijas .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .overlay {
+body main .manijasSectionProductos .manijasContainer #manijas .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -871,7 +871,7 @@ body main .manijasSectionProductos .manijasContainer #herrajes .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .manijasSectionProductos .manijasContainer #herrajes .overlay.active {
+body main .manijasSectionProductos .manijasContainer #manijas .overlay.active {
   display: block;
   opacity: 1;
 }
