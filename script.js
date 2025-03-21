@@ -19,7 +19,7 @@ class BaseDeDatosHerrajes {
   }
 
   async cargarRegistros() {
-    const resultado = await fetch("./JSON/herrajes.json");
+    const resultado = await fetch("./JSON/manijas.json");
     this.herrajes = await resultado.json();
     cargarProductos(this.herrajes); // Pasa el array de productos aquí
   }

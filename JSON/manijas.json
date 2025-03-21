@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "nombre": "222",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/222.PNG",
+    "alt": "",
+    "medidas": "27cm x 17cm"
+  },
+  {
+    "id": 2,
+    "nombre": "1026 B",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/1026B.PNG",
+    "alt": "",
+    "medidas": "22cm x 17cm"
+  },
+  {
+    "id": 3,
+    "nombre": "1026 E",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/1026E.PNG",
+    "alt": "",
+    "medidas": "21 x 16cm"
+  },
+  {
+    "id": 4,
+    "nombre": "1938",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/1938.PNG",
+    "alt": "",
+    "medidas": "24cm x 17cm"
+  },
+  {
+    "id": 4,
+    "nombre": "Abanico B",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/abanicoB.PNG",
+    "alt": "",
+    "medidas": "28cm x 16cm"
+  },
+  {
+    "id": 5,
+    "nombre": "2015",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/2015.PNG",
+    "alt": "",
+    "medidas": "26cm x 16cm"
+  },
+  {
+    "id": 6,
+    "nombre": "Abanico",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/abanico.PNG",
+    "alt": "",
+    "medidas": "25cm x 16xm"
+  },
+  {
+    "id": 6,
+    "nombre": "Abanico B",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/abanicoB.PNG",
+    "alt": "",
+    "medidas": "25cm x 16xm"
+  },
+  {
+    "id": 7,
+    "nombre": "Alita Chica",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/alitaChica.PNG",
+    "alt": "",
+    "medidas": "22cm x 15cm"
+  },
+  {
+    "id": 8,
+    "nombre": "Alita Grande",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/alitaGrande.PNG",
+    "alt": "",
+    "medidas": "23cm x 17cm"
+  },
+  {
+    "id": 9,
+    "nombre": "Alita Rallada 1",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/alitaRallada1.PNG",
+    "alt": "",
+    "medidas": "24cm x 17cm"
+  },
+  {
+    "id": 10,
+    "nombre": "Alita Rallada 2",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/alitaRallada2.PNG",
+    "alt": "",
+    "medidas": "24cm x 17cm"
+  },
+  {
+    "id": 11,
+    "nombre": "Alita Super",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/alitaSuper.PNG",
+    "alt": "",
+    "medidas": "25cm x 18cm"
+  },
+  {
+    "id": 12,
+    "nombre": "Americana",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/americana.PNG",
+    "alt": "",
+    "medidas": "26cm x 16cm"
+  },
+  {
+    "id": 13,
+    "nombre": "bigote",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/bigote.PNG",
+    "alt": "",
+    "medidas": "22cm x 16cm"
+  },
+  {
+    "id": 14,
+    "nombre": "caladita",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/caladita.PNG",
+    "alt": "",
+    "medidas": "23cm x 14cm"
+  },
+  {
+    "id": 15,
+    "nombre": "Doble Bocha",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/dobleBocha.PNG",
+    "alt": "",
+    "medidas": "27cm x 17cm"
+  },
+  {
+    "id": 16,
+    "nombre": "Estribo",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/estribo.PNG",
+    "alt": "",
+    "medidas": "22cm x 16cm"
+  },
+  {
+    "id": 17,
+    "nombre": "Faraona",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/faraona.PNG",
+    "alt": "",
+    "medidas": "17cm x 17cm"
+  },
+  {
+    "id": 18,
+    "nombre": "Fija Chica",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/fijaChica.PNG",
+    "alt": "",
+    "medidas": "21cm x 13cm"
+  },
+  {
+    "id": 19,
+    "nombre": "Fija Grande",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/fijaGrande.PNG",
+    "alt": "",
+    "medidas": "21cm x 13cm"
+  },
+  {
+    "id": 20,
+    "nombre": "Franja Lisa",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/franjaLisa.PNG",
+    "alt": "",
+    "medidas": "27cm x 16cm"
+  },
+  {
+    "id": 21,
+    "nombre": "Moño Chico",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/monioChico.PNG",
+    "alt": "",
+    "medidas": "19cm x 15cm"
+  },
+  {
+    "id": 22,
+    "nombre": "Moño Grande",
+    "categoria": "manijas",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/manijas/monioGrande.PNG",
+    "alt": "",
+    "medidas": "21cm x 16cm"
+  }
+]
