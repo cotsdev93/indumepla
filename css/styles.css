@@ -724,15 +724,22 @@ body footer .footer02 .wpContainer a {
   }
 }
 body main .manijasSectionProductos {
-  margin: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 body main .manijasSectionProductos .manijasContainer {
   width: 90%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+body main .manijasSectionProductos .manijasContainer .title {
+  width: 90%;
+  font-size: 22px;
+  color: #084a95;
+  margin: 15px 0px 10px 15px;
 }
 body main .manijasSectionProductos .manijasContainer #herrajes {
   width: 90%;
@@ -869,39 +876,22 @@ body main .manijasSectionProductos .manijasContainer #herrajes .overlay.active {
   opacity: 1;
 }
 body main .placasSectionProductos {
-  margin: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 body main .placasSectionProductos .placasContainer {
   width: 90%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-body main .placasSectionProductos .placasContainer .fa-chevron-left-acc,
-body main .placasSectionProductos .placasContainer .fa-chevron-right-acc {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-body main .placasSectionProductos .placasContainer .fa-chevron-left-acc.hidden,
-body main .placasSectionProductos .placasContainer .fa-chevron-right-acc.hidden {
-  opacity: 0;
-  visibility: hidden;
-}
-body main .placasSectionProductos .placasContainer .fa-chevron-right-acc {
-  font-size: 15px;
-  margin-left: 10px;
-  cursor: pointer;
-}
-body main .placasSectionProductos .placasContainer .fa-chevron-left-acc {
-  font-size: 15px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-body main .placasSectionProductos .placasContainer .fa-solid {
-  transition: all 0.5s;
+body main .placasSectionProductos .placasContainer .title {
+  width: 90%;
+  font-size: 22px;
+  color: #084a95;
+  margin: 15px 0px 10px 15px;
 }
 body main .placasSectionProductos .placasContainer #placas {
   width: 90%;

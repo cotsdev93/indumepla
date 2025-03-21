@@ -1,14 +1,21 @@
 body {
   main {
     .manijasSectionProductos {
-      margin: 20px;
       display: flex;
       justify-content: center;
+      align-items: center;
       .manijasContainer {
         width: 90%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        .title {
+          width: 90%;
+          font-size: 22px;
+          color: $main;
+          margin: 15px 0px 10px 15px;
+        }
         #herrajes {
           width: 90%;
           display: flex;
@@ -162,42 +169,21 @@ body {
       }
     }
     .placasSectionProductos {
-      margin: 20px;
       display: flex;
       justify-content: center;
+      align-items: center;
 
       .placasContainer {
         width: 90%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        .fa-chevron-left-acc,
-        .fa-chevron-right-acc {
-          opacity: 1;
-          visibility: visible;
-          transition: opacity 0.3s ease, visibility 0.3s ease;
-
-          &.hidden {
-            opacity: 0;
-            visibility: hidden;
-          }
-        }
-
-        .fa-chevron-right-acc {
-          font-size: 15px;
-          margin-left: 10px;
-          cursor: pointer;
-        }
-
-        .fa-chevron-left-acc {
-          font-size: 15px;
-          margin-right: 10px;
-          cursor: pointer;
-        }
-
-        .fa-solid {
-          transition: all 0.5s;
+        .title {
+          width: 90%;
+          font-size: 22px;
+          color: $main;
+          margin: 15px 0px 10px 15px;
         }
 
         #placas {
