@@ -53,8 +53,8 @@ function cargarProductos(productosArray, containerId = 'herrajes') {
     </div>
   `;
 
-  // Agregar los productos
-  for (const producto of productosArray) {
+  // Add products
+  productosArray.forEach(producto => {
     container.innerHTML += `
       <div class="card">
         <div class="imgContainer">
@@ -65,10 +65,12 @@ function cargarProductos(productosArray, containerId = 'herrajes') {
         </div>
       </div>
     `;
-  }
+  });
 
-  // Configurar los event listeners
-  setupZoomHandlers(container);
+  // Only setup zoom handlers if container exists
+  if (container) {
+    setupZoomHandlers(container);
+  }
 }
 
 function setupZoomHandlers(container) {

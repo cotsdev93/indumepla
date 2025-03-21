@@ -723,24 +723,24 @@ body footer .footer02 .wpContainer a {
     text-decoration: none;
   }
 }
-body main .herrajesSectionProductos {
+body main .manijasSectionProductos {
   margin: 20px;
   display: flex;
   justify-content: center;
 }
-body main .herrajesSectionProductos .herrajesContainer {
+body main .manijasSectionProductos .manijasContainer {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes {
+body main .manijasSectionProductos .manijasContainer #herrajes {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   height: auto;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card {
+body main .manijasSectionProductos .manijasContainer #herrajes .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -756,7 +756,7 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .imgContainer {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -765,28 +765,28 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .card .imgConta
   border-bottom: dashed 1px #abaaaa;
   background-color: #f1ebeb;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .imgContainer .img {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .imgContainer.active {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .imgContainer.active {
   cursor: zoom-out;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer h3 {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer .medidas {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -795,12 +795,12 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoCont
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .card .infoContainer .precio {
+body main .manijasSectionProductos .manijasContainer #herrajes .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -814,7 +814,7 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view .close-btn {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -829,30 +829,30 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view .clo
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view .close-btn i {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view img {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view .zoom-info {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view .zoom-info .zoom-medidas {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .zoom-view.active {
+body main .manijasSectionProductos .manijasContainer #herrajes .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .overlay {
+body main .manijasSectionProductos .manijasContainer #herrajes .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -864,52 +864,52 @@ body main .herrajesSectionProductos .herrajesContainer #herrajes .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .herrajesSectionProductos .herrajesContainer #herrajes .overlay.active {
+body main .manijasSectionProductos .manijasContainer #herrajes .overlay.active {
   display: block;
   opacity: 1;
 }
-body main .accesoriosSectionProductos {
+body main .placasSectionProductos {
   margin: 20px;
   display: flex;
   justify-content: center;
 }
-body main .accesoriosSectionProductos .accesoriosContainer {
+body main .placasSectionProductos .placasContainer {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-left-acc,
-body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-right-acc {
+body main .placasSectionProductos .placasContainer .fa-chevron-left-acc,
+body main .placasSectionProductos .placasContainer .fa-chevron-right-acc {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-left-acc.hidden,
-body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-right-acc.hidden {
+body main .placasSectionProductos .placasContainer .fa-chevron-left-acc.hidden,
+body main .placasSectionProductos .placasContainer .fa-chevron-right-acc.hidden {
   opacity: 0;
   visibility: hidden;
 }
-body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-right-acc {
+body main .placasSectionProductos .placasContainer .fa-chevron-right-acc {
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
-body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-left-acc {
+body main .placasSectionProductos .placasContainer .fa-chevron-left-acc {
   font-size: 15px;
   margin-right: 10px;
   cursor: pointer;
 }
-body main .accesoriosSectionProductos .accesoriosContainer .fa-solid {
+body main .placasSectionProductos .placasContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas {
+body main .placasSectionProductos .placasContainer #placas {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   height: auto;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card {
+body main .placasSectionProductos .placasContainer #placas .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -925,7 +925,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #placas .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgContainer {
+body main .placasSectionProductos .placasContainer #placas .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -934,28 +934,28 @@ body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgCon
   border-bottom: dashed 1px #abaaaa;
   background-color: #f1ebeb;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgContainer .img {
+body main .placasSectionProductos .placasContainer #placas .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgContainer.active {
+body main .placasSectionProductos .placasContainer #placas .card .imgContainer.active {
   cursor: zoom-out;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer {
+body main .placasSectionProductos .placasContainer #placas .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer h3 {
+body main .placasSectionProductos .placasContainer #placas .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer .medidas {
+body main .placasSectionProductos .placasContainer #placas .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -964,12 +964,12 @@ body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoCo
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer .precio {
+body main .placasSectionProductos .placasContainer #placas .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view {
+body main .placasSectionProductos .placasContainer #placas .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -983,7 +983,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .close-btn {
+body main .placasSectionProductos .placasContainer #placas .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -998,30 +998,30 @@ body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .c
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .close-btn i {
+body main .placasSectionProductos .placasContainer #placas .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view img {
+body main .placasSectionProductos .placasContainer #placas .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .zoom-info {
+body main .placasSectionProductos .placasContainer #placas .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .zoom-info .zoom-medidas {
+body main .placasSectionProductos .placasContainer #placas .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view.active {
+body main .placasSectionProductos .placasContainer #placas .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .overlay {
+body main .placasSectionProductos .placasContainer #placas .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -1033,7 +1033,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #placas .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #placas .overlay.active {
+body main .placasSectionProductos .placasContainer #placas .overlay.active {
   display: block;
   opacity: 1;
 }
