@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 0;
   main {
-    .herrajesSection {
+    .manijasSection {
       // height: 50vh;
       margin-top: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       // border: solid 1px red;
-      .herrajesContainer {
+      .manijasContainer {
         width: 90%;
         display: flex;
         align-items: center;
@@ -199,16 +199,16 @@ body {
 }
 
 @media (max-width: 737px) {
-  body main .herrajesSection {
+  body main .manijasSection {
     height: 35vh;
     margin-top: 0;
 
-    .herrajesContainer {
+    .manijasContainer {
       .fa-solid {
         display: none;
       }
 
-      #herrajes {
+      #manijas {
         width: 90%;
         height: auto;
         overflow-x: auto;

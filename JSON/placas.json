@@ -5,7 +5,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placa49.PNG",
+    "img": "./assets/img/placas/placa49.png.PNG",
     "alt": "",
     "medidas": "12cm x 8cm"
   },
@@ -15,7 +15,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placa49Estampada.PNG",
+    "img": "./assets/img/placas/placa49Estampada.png.PNG",
     "alt": "",
     "medidas": "12cm x 7cm"
   },
@@ -25,7 +25,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placaAngelito.PNG",
+    "img": "./assets/img/placas/placaAngelito.png.PNG",
     "alt": "",
     "medidas": "12cm x 8cm"
   },
@@ -35,7 +35,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placaCofre.PNG",
+    "img": "./assets/img/placas/placaCofre.png.PNG",
     "alt": "",
     "medidas": "18cm x 14cm"
   },
@@ -45,7 +45,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placaJarron.PNG",
+    "img": "./assets/img/placas/placaJarron.png.PNG",
     "alt": "",
     "medidas": "16cm x 16cm"
   },
@@ -56,7 +56,7 @@
     "categoria": "herrajes",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placaLaurel.PNG",
+    "img": "./assets/img/placas/placaLaurel.png.PNG",
     "alt": "",
     "medidas": "14cm x 12cm"
   },
@@ -66,7 +66,7 @@
     "categoria": "accesorios",
     "precio": 100,
     "descripcion": "",
-    "img": "./assets/img/placas/placaQEPD.PNG",
+    "img": "./assets/img/placas/placaQEPD.png.PNG",
     "alt": "",
     "medidas": "15cm x 13cm"
   }

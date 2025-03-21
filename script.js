@@ -12,7 +12,7 @@ lis.forEach(li => {
   });
 });
 
-class BaseDeDatosHerrajes {
+class BaseDeDatosManijas {
   constructor() {
     this.herrajes = [];
     this.cargarRegistros();
@@ -25,32 +25,33 @@ class BaseDeDatosHerrajes {
   }
 }
 
-const bdh = new BaseDeDatosHerrajes();
+const bdh = new BaseDeDatosManijas();
 
-console.log(bdh);
 
 const herrajes = document.getElementById("herrajes");
 
 function cargarProductos(productosArray, containerId = 'herrajes') {
   const container = document.getElementById(containerId);
   
-  // Agregar el overlay y zoom-view si no existen
-  if (!container.querySelector('.overlay')) {
-    container.innerHTML = `
-      <div class="overlay"></div>
-      <div class="zoom-view">
-        <div class="close-btn">
-          <i class="fa-solid fa-xmark"></i>
-        </div>
-        <img src="" alt="Zoom view" />
-        <div class="zoom-info">
-          <h3 class="zoom-title"></h3>
-          <p class="zoom-medidas"></p>
-        </div>
-      </div>
-      ${container.innerHTML}
-    `;
+  if (!container) {
+    console.error(`Container with id '${containerId}' not found`);
+    return;
   }
+  
+  // Clear the container first
+  container.innerHTML = `
+    <div class="overlay"></div>
+    <div class="zoom-view">
+      <div class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <img src="" alt="Zoom view" />
+      <div class="zoom-info">
+        <h3 class="zoom-title"></h3>
+        <p class="zoom-medidas"></p>
+      </div>
+    </div>
+  `;
 
   // Agregar los productos
   for (const producto of productosArray) {
@@ -151,22 +152,21 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-class BaseDeDatosAccesorios {
+class BaseDeDatosPlacas {
   constructor() {
-    this.accesorios = [];
+    this.placas = [];
     this.cargarRegistros();
   }
 
   async cargarRegistros() {
     const resultado = await fetch("./JSON/placas.json");
-    this.accesorios = await resultado.json();
-    cargarProductos(this.accesorios, 'accesorios');
+    this.placas = await resultado.json();
+    cargarProductos(this.placas, 'placas');
   }
 }
 
-const bda = new BaseDeDatosAccesorios();
+const bda = new BaseDeDatosPlacas();
 
-console.log(bda);
 
 const accesorios = document.getElementById("accesorios");
 
@@ -188,23 +188,23 @@ function cargarProductosAccesorios(productosArray) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const accesoriosContainer = document.getElementById("accesorios");
+  const placasContainer = document.getElementById("placas");
   const btnLeftAcc = document.querySelector(".fa-chevron-left-acc");
   const btnRightAcc = document.querySelector(".fa-chevron-right-acc");
 
   function getScrollAmount() {
-    return accesoriosContainer.offsetWidth / 4;
+    return placasContainer.offsetWidth / 4;
   }
 
   btnRightAcc.addEventListener("click", () => {
-    accesoriosContainer.scrollBy({ 
+    placasContainer.scrollBy({ 
       left: getScrollAmount(), 
       behavior: "smooth" 
     });
   });
 
   btnLeftAcc.addEventListener("click", () => {
-    accesoriosContainer.scrollBy({ 
+    placasContainer.scrollBy({ 
       left: -getScrollAmount(), 
       behavior: "smooth" 
     });

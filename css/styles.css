@@ -17,51 +17,51 @@ body {
   margin: 0;
   padding: 0;
 }
-body main .herrajesSection {
+body main .manijasSection {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body main .herrajesSection .herrajesContainer {
+body main .manijasSection .manijasContainer {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body main .herrajesSection .herrajesContainer .fa-chevron-left,
-body main .herrajesSection .herrajesContainer .fa-chevron-left-acc {
+body main .manijasSection .manijasContainer .fa-chevron-left,
+body main .manijasSection .manijasContainer .fa-chevron-left-acc {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-body main .herrajesSection .herrajesContainer .fa-chevron-left.hidden,
-body main .herrajesSection .herrajesContainer .fa-chevron-left-acc.hidden {
+body main .manijasSection .manijasContainer .fa-chevron-left.hidden,
+body main .manijasSection .manijasContainer .fa-chevron-left-acc.hidden {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-body main .herrajesSection .herrajesContainer .fa-chevron-right {
+body main .manijasSection .manijasContainer .fa-chevron-right {
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
-body main .herrajesSection .herrajesContainer .fa-chevron-left {
+body main .manijasSection .manijasContainer .fa-chevron-left {
   font-size: 15px;
   margin-right: 10px;
   cursor: pointer;
 }
-body main .herrajesSection .herrajesContainer .fa-solid {
+body main .manijasSection .manijasContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .herrajesSection .herrajesContainer #herrajes {
+body main .manijasSection .manijasContainer #herrajes {
   width: calc(90% - 60px);
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card {
+body main .manijasSection .manijasContainer #herrajes .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -76,7 +76,7 @@ body main .herrajesSection .herrajesContainer #herrajes .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer {
+body main .manijasSection .manijasContainer #herrajes .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -85,26 +85,26 @@ body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer {
   border-bottom: dashed 1px #abaaaa;
   background-color: #f1ebeb;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer .img {
+body main .manijasSection .manijasContainer #herrajes .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .imgContainer.active {
+body main .manijasSection .manijasContainer #herrajes .card .imgContainer.active {
   cursor: zoom-out;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer {
+body main .manijasSection .manijasContainer #herrajes .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer h3 {
+body main .manijasSection .manijasContainer #herrajes .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .medidas {
+body main .manijasSection .manijasContainer #herrajes .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,12 +113,12 @@ body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .me
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .precio {
+body main .manijasSection .manijasContainer #herrajes .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view {
+body main .manijasSection .manijasContainer #herrajes .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -132,7 +132,7 @@ body main .herrajesSection .herrajesContainer #herrajes .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view .close-btn {
+body main .manijasSection .manijasContainer #herrajes .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -147,30 +147,30 @@ body main .herrajesSection .herrajesContainer #herrajes .zoom-view .close-btn {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view .close-btn i {
+body main .manijasSection .manijasContainer #herrajes .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view img {
+body main .manijasSection .manijasContainer #herrajes .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view .zoom-info {
+body main .manijasSection .manijasContainer #herrajes .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view .zoom-info .zoom-medidas {
+body main .manijasSection .manijasContainer #herrajes .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .herrajesSection .herrajesContainer #herrajes .zoom-view.active {
+body main .manijasSection .manijasContainer #herrajes .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .herrajesSection .herrajesContainer #herrajes .overlay {
+body main .manijasSection .manijasContainer #herrajes .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -182,25 +182,25 @@ body main .herrajesSection .herrajesContainer #herrajes .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .herrajesSection .herrajesContainer #herrajes .overlay.active {
+body main .manijasSection .manijasContainer #herrajes .overlay.active {
   display: block;
   opacity: 1;
 }
 
 @media (max-width: 737px) {
-  body main .herrajesSection {
+  body main .manijasSection {
     height: 35vh;
     margin-top: 0;
   }
-  body main .herrajesSection .herrajesContainer .fa-solid {
+  body main .manijasSection .manijasContainer .fa-solid {
     display: none;
   }
-  body main .herrajesSection .herrajesContainer #herrajes {
+  body main .manijasSection .manijasContainer #manijas {
     width: 90%;
     height: auto;
     overflow-x: auto;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .zoom-view {
+  body main .manijasSection .manijasContainer #manijas .zoom-view {
     display: none;
     position: fixed;
     top: 50%;
@@ -214,7 +214,7 @@ body main .herrajesSection .herrajesContainer #herrajes .overlay.active {
     opacity: 0;
     transition: all 0.3s ease;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .zoom-view .close-btn {
+  body main .manijasSection .manijasContainer #manijas .zoom-view .close-btn {
     position: absolute;
     top: -15px;
     right: -15px;
@@ -229,31 +229,31 @@ body main .herrajesSection .herrajesContainer #herrajes .overlay.active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .zoom-view .close-btn i {
+  body main .manijasSection .manijasContainer #manijas .zoom-view .close-btn i {
     display: block;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .zoom-view .close-btn i {
+  body main .manijasSection .manijasContainer #manijas .zoom-view .close-btn i {
     color: #333;
     font-size: 16px;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .zoom-view img {
+  body main .manijasSection .manijasContainer #manijas .zoom-view img {
     max-width: 60vw;
     max-height: 50vh;
     object-fit: contain;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .zoom-view.active {
+  body main .manijasSection .manijasContainer #manijas .zoom-view.active {
     display: block;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
-  body main .herrajesSection .herrajesContainer #herrajes .card {
+  body main .manijasSection .manijasContainer #manijas .card {
     flex: 0 0 calc(100% - 10px);
   }
-  body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer {
+  body main .manijasSection .manijasContainer #manijas .card .infoContainer {
     min-height: 40px;
   }
-  body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer h3,
-  body main .herrajesSection .herrajesContainer #herrajes .card .infoContainer .precio {
+  body main .manijasSection .manijasContainer #manijas .card .infoContainer h3,
+  body main .manijasSection .manijasContainer #manijas .card .infoContainer .precio {
     font-size: 17px;
   }
 }
@@ -377,14 +377,14 @@ body main .accesoriosSection .accesoriosContainer .fa-chevron-left-acc {
 body main .accesoriosSection .accesoriosContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios {
+body main .accesoriosSection .accesoriosContainer #placas {
   position: relative;
   width: calc(90% - 60px);
   display: flex;
   align-items: center;
   overflow: hidden;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -398,7 +398,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view {
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .close-btn {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -413,30 +413,30 @@ body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .close-
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .close-btn i {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view img {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .zoom-info {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view .zoom-info .zoom-medidas {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .zoom-view.active {
+body main .accesoriosSection .accesoriosContainer #placas .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .overlay {
+body main .accesoriosSection .accesoriosContainer #placas .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -448,11 +448,11 @@ body main .accesoriosSection .accesoriosContainer #accesorios .overlay {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .overlay.active {
+body main .accesoriosSection .accesoriosContainer #placas .overlay.active {
   display: block;
   opacity: 1;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card {
+body main .accesoriosSection .accesoriosContainer #placas .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -467,7 +467,7 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer {
+body main .accesoriosSection .accesoriosContainer #placas .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -475,25 +475,25 @@ body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContaine
   background-color: #f1ebeb;
   border-bottom: dashed 1px #abaaaa;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card .imgContainer .img {
+body main .accesoriosSection .accesoriosContainer #placas .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer {
+body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer h3 {
+body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .accesoriosSection .accesoriosContainer #accesorios .card .infoContainer .medidas {
+body main .accesoriosSection .accesoriosContainer #placas .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -903,13 +903,13 @@ body main .accesoriosSectionProductos .accesoriosContainer .fa-chevron-left-acc 
 body main .accesoriosSectionProductos .accesoriosContainer .fa-solid {
   transition: all 0.5s;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios {
+body main .accesoriosSectionProductos .accesoriosContainer #placas {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   height: auto;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card {
   border: solid 1px #abaaaa;
   flex: 0 0 calc(25% - 10px);
   height: 150px;
@@ -925,7 +925,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card {
   box-sizing: border-box;
   cursor: pointer;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .imgContainer {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgContainer {
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
   display: flex;
   justify-content: center;
@@ -934,28 +934,28 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .im
   border-bottom: dashed 1px #abaaaa;
   background-color: #f1ebeb;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .imgContainer .img {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgContainer .img {
   width: 80%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .imgContainer.active {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .imgContainer.active {
   cursor: zoom-out;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .infoContainer {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .infoContainer h3 {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer h3 {
   height: 100%;
   font-size: 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .infoContainer .medidas {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer .medidas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -964,12 +964,12 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .in
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .card .infoContainer .precio {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .card .infoContainer .precio {
   color: green;
   height: 100%;
   font-size: 12px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view {
   display: none;
   position: fixed;
   top: 50%;
@@ -983,7 +983,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-vie
   opacity: 0;
   transition: all 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view .close-btn {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .close-btn {
   position: absolute;
   top: -15px;
   right: -15px;
@@ -998,30 +998,30 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-vie
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view .close-btn i {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .close-btn i {
   color: #333;
   font-size: 16px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view img {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view img {
   max-width: 70vw;
   max-height: 70vh;
   object-fit: contain;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view .zoom-info {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .zoom-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view .zoom-info .zoom-medidas {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view .zoom-info .zoom-medidas {
   color: gray;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .zoom-view.active {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .zoom-view.active {
   display: block;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .overlay {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -1033,7 +1033,7 @@ body main .accesoriosSectionProductos .accesoriosContainer #accesorios .overlay 
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-body main .accesoriosSectionProductos .accesoriosContainer #accesorios .overlay.active {
+body main .accesoriosSectionProductos .accesoriosContainer #placas .overlay.active {
   display: block;
   opacity: 1;
 }
