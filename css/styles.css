@@ -1027,6 +1027,159 @@ body main .placasSectionProductos .placasContainer #placas .overlay.active {
   display: block;
   opacity: 1;
 }
+body main .crucesSectionProductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+body main .crucesSectionProductos .crucesContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main .crucesSectionProductos .crucesContainer .title {
+  width: 90%;
+  font-size: 22px;
+  color: #084a95;
+  margin: 15px 0px 10px 15px;
+}
+body main .crucesSectionProductos .crucesContainer #cruces {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card {
+  border: solid 1px #abaaaa;
+  flex: 0 0 calc(25% - 10px);
+  height: 150px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #efefef;
+  box-shadow: rgba(0, 0, 0, 0.1254901961) 0px 0px 7px 1px;
+  height: auto;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .imgContainer {
+  box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.1882352941);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-bottom: dashed 1px #abaaaa;
+  background-color: #f1ebeb;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .imgContainer .img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .imgContainer.active {
+  cursor: zoom-out;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .infoContainer h3 {
+  height: 100%;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .infoContainer .medidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .card .infoContainer .precio {
+  color: green;
+  height: 100%;
+  font-size: 12px;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.7);
+  z-index: 1000;
+  background-color: #f1ebeb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view .close-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view .close-btn i {
+  color: #333;
+  font-size: 16px;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view img {
+  max-width: 70vw;
+  max-height: 70vh;
+  object-fit: contain;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view .zoom-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view .zoom-info .zoom-medidas {
+  color: gray;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .zoom-view.active {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+body main .crucesSectionProductos .crucesContainer #cruces .overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+body main .crucesSectionProductos .crucesContainer #cruces .overlay.active {
+  display: block;
+  opacity: 1;
+}
 
 @media (max-width: 737px) {
   body main .herrajesSectionProductos {
