@@ -1,0 +1,73 @@
+[
+  {
+    "id": 23,
+    "nombre": "Placa 49",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placa49.PNG",
+    "alt": "",
+    "medidas": "12cm x 8cm"
+  },
+  {
+    "id": 24,
+    "nombre": "Placa 49 Estamp",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placa49Estampada.PNG",
+    "alt": "",
+    "medidas": "12cm x 7cm"
+  },
+  {
+    "id": 25,
+    "nombre": "Placa Angelito",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placaAngelito.PNG",
+    "alt": "",
+    "medidas": "12cm x 8cm"
+  },
+  {
+    "id": 26,
+    "nombre": "Placa Cofre",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placaCofre.PNG",
+    "alt": "",
+    "medidas": "18cm x 14cm"
+  },
+  {
+    "id": 27,
+    "nombre": "Placa Jarron",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placaJarron.PNG",
+    "alt": "",
+    "medidas": "16cm x 16cm"
+  },
+
+  {
+    "id": 28,
+    "nombre": "Placa Laurel",
+    "categoria": "herrajes",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placaLaurel.PNG",
+    "alt": "",
+    "medidas": "14cm x 12cm"
+  },
+  {
+    "id": 29,
+    "nombre": "Placa QEPD",
+    "categoria": "accesorios",
+    "precio": 100,
+    "descripcion": "",
+    "img": "./assets/img/placas/placaQEPD.PNG",
+    "alt": "",
+    "medidas": "15cm x 13cm"
+  }
+]

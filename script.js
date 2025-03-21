@@ -158,7 +158,7 @@ class BaseDeDatosAccesorios {
   }
 
   async cargarRegistros() {
-    const resultado = await fetch("./JSON/accesorios.json");
+    const resultado = await fetch("./JSON/placas.json");
     this.accesorios = await resultado.json();
     cargarProductos(this.accesorios, 'accesorios');
   }
